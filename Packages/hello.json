@@ -2,7 +2,7 @@
     "name": "hello",
     "version": "0.1.0",
     "description": "A tool to say hello",
-    "release_url": "https://github.com/pckai/aipm-tools/releases/download/v0.1.0",
+    "release_url": "https://github.com/pckai/hello-repo/releases",
     "platforms": {
         "linux": "hello-linux",
         "macos": "hello-macos",
@@ -23,12 +23,6 @@
             "request_type": "application/json",
             "response_type": "application/json",
             "description": "Sends a greeting to a specified name"
-        },
-        {
-            "path": "/health",
-            "method": "GET",
-            "response_type": "application/json",
-            "description": "Check if the service is healthy"
         }
     ]
 }
