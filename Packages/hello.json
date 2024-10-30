@@ -2,10 +2,18 @@
     "name": "hello",
     "version": "0.1.0",
     "description": "A tool to say hello",
-    "release_url": "https://github.com/pckai/aipm-tools/releases/download/v0.1.0/hello",
+    "release_url": "https://github.com/pckai/aipm-tools/releases/download/v0.1.0",
     "platforms": {
         "linux": "hello-linux",
         "macos": "hello-macos",
         "windows": "hello.exe"
+    },
+    "runtime": {
+        "name": "python",
+        "version": "3.9",
+        "install_commands": [
+            "python3 -m pip install --user requests>=2.26.0",
+            "python3 -m pip install --user click>=8.0.0"
+        ]
     }
 }
