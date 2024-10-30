@@ -11,9 +11,24 @@
     "runtime": {
         "name": "python",
         "version": "3.9",
-        "install_commands": [
+        "commands": [
             "python3 -m pip install --user requests>=2.26.0",
             "python3 -m pip install --user click>=8.0.0"
         ]
-    }
+    },
+    "endpoints": [
+        {
+            "path": "/greet",
+            "method": "POST",
+            "request_type": "application/json",
+            "response_type": "application/json",
+            "description": "Sends a greeting to a specified name"
+        },
+        {
+            "path": "/health",
+            "method": "GET",
+            "response_type": "application/json",
+            "description": "Check if the service is healthy"
+        }
+    ]
 }
