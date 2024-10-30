@@ -2,7 +2,7 @@
     "name": "hello",
     "version": "0.1.0",
     "description": "A tool to say hello",
-    "release_url": "https://github.com/pckai/hello-repo/releases",
+    "repo_url": "https://github.com/pckai/hello-repo",
     "platforms": {
         "linux": "hello-linux",
         "macos": "hello-macos",
